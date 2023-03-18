@@ -1,0 +1,145 @@
+1.How to compare two JSON have same properties without order?
+a.let obj1={name,"person1",age5},
+b.let obj2={age5,name,"person1"},
+
+ANSWER:
+     var obj1 = {name:"peron1",age:5};
+     var obj2 = {age:5,name:"person1"};
+     function isEqual(obj1,obj2) {
+     console.log(obj1);
+     console.log(obj2);
+     
+  }
+  
+  isEqual(obj1,obj2);
+  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Use the rest countries and print all countries names,region,sub region and populations;
+ANSWER:
+      
+      <body>
+
+  <h1>REST Countries API</h1>
+  <div id="main-container">
+    <div id="flag-container">
+      <img src="" alt="">
+    </div>
+    <div id="info-container">
+      <select id="countries"></select>
+      <p>Capital: <span id="capital"></span></p>
+      <p>Dialing Code: <span id="dialing-code"></span></p>
+      <p>Population: <span id="population"></span></p>
+      <p>Currencies: <span id="currencies"></span></p>
+      <p>Region: <span id="region"></span></p>
+      <p>Subregion: <span id="subregion"></span></p>
+    </div>
+  </div>
+
+</body>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.Use the rest countries and display all the country flag in the console;
+ANSWER:
+"name": "country-flag-svg",
+"version": "1.1.8",
+"description": "a list of countries with  url links to a svg image which you can simply use in your url",
+"main": "dist/index.js",
+"files": [
+        "dist"
+],
+"engines": {
+       "node": "^12.17.0|| 13.x|| 14.x|| 15.x|| 16.x|| 17.x|| 18.x"
+       
+  },
+  "scripts": {
+     "clean": "rimraf dist coverage",
+     "build": "./node_modules/.bin/babel src --out-dir dist",
+     "test": "jest",
+     "test-coverage": "jest--coverage",
+     "prepare": "npm run clean && npm run test && npm run build"
+ },
+ "repository": {
+   "type": "git"
+   "url": "git+https://github.com/ronaskiy/country-flag-svg.git"
+ },
+ "keywords": [
+        "country",
+        "flag",
+        "svg",
+        "country-flags",
+ ],
+ "author": "roman onatskiy",
+ "licence": "MIT",
+ "Bugs": {
+ "url": "git+https://github.com/ronaskiy/country-flag-svg/issues"
+ },
+ "homepage": "https://github.com/ronaskiy/country-flag-svg#readme",
+ "babel": {
+       "presets": [
+       "@babel/presets-env"
+       ]
+ }
+       
+       
+       
+ 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
